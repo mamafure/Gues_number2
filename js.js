@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+
+// document.getElementById("start").onclick=function(){
+
+// let attempts=0;
+// let high,low,username=window.prompt(`Inter your username: `)
+
+// let llow=true;
+// while(llow){
+//      low=Number(window.prompt(`WELCOME ${username}, Inter your smallest number: `))
+// if(isNaN(low)){
+//      window.alert(`Inter the valid number:`)
+// }
+// else{
+//      llow=false;
+
+// }
+
+// }
+
+// let hhigh=true;
+// while(hhigh){
+//      high=Number(window.prompt(`AGAIN ${username},Inter the largest number: `))
+// if(isNaN(high)){
+//      window.alert(`Inter the valid number:`)
+// }
+// else if(high<low){
+//      window.alert(`${username} you have input the number is lower than ${low}
+// PLEASE! inter the number which is greater than ${low} to continue with next step.`)
+// }
+// else{
+//      hhigh=false;
+
+// }
+
+// }
+// let randomnum=Math.floor(Math.random()*(high-low)+low);
+
+
+// let choise=true;
+// while(choise){
+
+// let gnum=window.prompt(`${username},NOW! gues the number between ${low} and ${high}:`);
+// if(gnum<low){
+//      window.alert(`${username} you have intered number less then ${low};
+// PLEASE! inter the number between ${low} and ${high}: `)
+// }
+// else if(gnum>high){
+//      window.alert(`${username} you have intered number greater than ${high};
+// PLEASE! inter the number between ${low} and ${high}: `)
+// }
+// else if(isNaN(gnum)){
+//      window.alert(`You have not intered the NUMBER!
+// ${username},PLEASE! inter the valid number.`)
+// }
+// else{
+
+// if(gnum>randomnum)
+//      {
+//      attempts++;
+// window.alert(`TOO HIGH ${username}
+//      Please try again.`)
+// }
+//      else if(gnum<randomnum){
+//           attempts++;
+//           window.alert(`TOO LOW ${username}
+//      Please try again.`)
+//      }
+//      else{
+//           window.alert(`CONGLATULATION!${username},
+//      The correct number was ${randomnum};and it took you ${attempts} attempts to gues correct number.`)
+//           window.alert(`*******GAME OVER******************
+//                          -thank you for your time-
+//                           --sisco created--`)
+//      choise=false;
+//           }
+
+// }
+
+
+// }
+
+
+
+
+// }
+
+
+
+
